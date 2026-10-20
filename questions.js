@@ -937,7 +937,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "M1 = C + D = c × D + D = 0.2 × 10,000 + 10,000 = 12,000.",
           "source": "Lecture 9",
-          "origin": "Final exam Oct 2025 Q10 · also in: Old-exam pool #60"
+          "origin": "Final exam Oct 2025 Q10 · also in: Final exam Oct 2024 Q10, Old-exam pool #60"
         },
         {
           "num": 11,
@@ -1267,7 +1267,675 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "5.5 = π + r* + 0.5(π − π*) + 0.5 × gap = 3 + 1 + 0.5(3 − π*) + 0.5. So 0.5(3 − π*) = 1, which gives π* = 1 %.",
           "source": "Lecture 10, 'Tactics: the Taylor rule'",
-          "origin": "Final exam Oct 2025 Q20 · also in: Exam Jan 2023 Q20, Old-exam pool #70, Old-exam pool #160"
+          "origin": "Final exam Oct 2025 Q20 · also in: Final exam Oct 2024 Q20, Exam Jan 2023 Q20, Old-exam pool #70, Old-exam pool #160"
+        }
+      ]
+    },
+    {
+      "id": "f2024",
+      "label": "Final exam October 2024",
+      "source": "All 20 MC questions",
+      "rev": 1,
+      "questions": [
+        {
+          "num": 1,
+          "qid": "P-51",
+          "stem": "Financial markets and financial intermediaries are regulated for various reasons. Which of the following four features is one of the features of the regulation of financial intermediaries?",
+          "options": [
+            {
+              "l": "a",
+              "t": "requiring banks to quickly decrease their capital when their ratio of capital to risk-weighted assets rises above the levels that are determined within the Basel Accords."
+            },
+            {
+              "l": "b",
+              "t": "requiring pension funds to invest in so-called junk bonds."
+            },
+            {
+              "l": "c",
+              "t": "reducing the amount of deposits that are guaranteed within the deposit-insurance system."
+            },
+            {
+              "l": "d",
+              "t": "allowing commercial banks with liquidity problems to call upon the central bank in the latter’s role as lender of last resort (LOLR)."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_l11",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "The lender of last resort is one of the government safety nets, along with deposit insurance. The other three state the opposite of real regulation.",
+          "source": "Lecture 11, 'Categories of financial regulation'",
+          "origin": "Final exam Oct 2024 Q1 · also in: Old-exam pool #51"
+        },
+        {
+          "num": 2,
+          "qid": "P-52",
+          "stem": "When the capital of a bank falls below the minimum capital requirements of the Basel II agreement, the following action cannot bring it back towards fulfilling these requirements:",
+          "options": [
+            {
+              "l": "a",
+              "t": "Decreasing dividends."
+            },
+            {
+              "l": "b",
+              "t": "Decreasing capital."
+            },
+            {
+              "l": "c",
+              "t": "Selling government bonds that it owns and putting the proceeds into the reserves."
+            },
+            {
+              "l": "d",
+              "t": "Selling loans and putting the proceeds into the reserves."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_l11",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "Reducing capital lowers C / RWA even further. Cutting dividends raises C through retained earnings. Selling government bonds or loans and holding the proceeds as reserves (risk weight 0 %) lowers RWA.",
+          "source": "Lecture 11, 'The danger of pro-cyclicality ...' (ways to raise C/RWA)",
+          "origin": "Final exam Oct 2024 Q2 · also in: Old-exam pool #52"
+        },
+        {
+          "num": 3,
+          "qid": "P-53",
+          "stem": "Which of the following four objectives is not amongst the intermediate objectives of macroprudential regulation?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Reducing excessive credit growth and leverage."
+            },
+            {
+              "l": "b",
+              "t": "Preventing excessive maturity mismatch and market illiquidity."
+            },
+            {
+              "l": "c",
+              "t": "Increasing direct and indirect exposure concentrations."
+            },
+            {
+              "l": "d",
+              "t": "Preventing misaligned incentives and moral-hazard incentives."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_l11",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "The ESRB's objective is to prevent (reduce) direct and indirect exposure concentrations, not increase them. The other three are intermediate objectives.",
+          "source": "Veestraeten (2019), section 3",
+          "origin": "Final exam Oct 2024 Q3 · also in: Old-exam pool #53"
+        },
+        {
+          "num": 4,
+          "qid": "P-54",
+          "stem": "Which of the following events did not take place in the five years before the Global Financial Crisis of 2007-2008?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Low interest rates."
+            },
+            {
+              "l": "b",
+              "t": "Low inflation rates."
+            },
+            {
+              "l": "c",
+              "t": "The securitisation process."
+            },
+            {
+              "l": "d",
+              "t": "The shift from the ‘originate to distribute’ to the ‘originate and hold’ model of banking."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_l7",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "The shift ran the other way, from 'originate and hold' to 'originate to distribute'. Low interest rates, low inflation and securitisation all marked the years before the crisis.",
+          "source": "Lecture 7",
+          "origin": "Final exam Oct 2024 Q4 · also in: Old-exam pool #54"
+        },
+        {
+          "num": 5,
+          "qid": "P-55",
+          "stem": "The so-called ‘junior’ tranches",
+          "options": [
+            {
+              "l": "a",
+              "t": "are the tranches with the highest risk and hence lowest expected return."
+            },
+            {
+              "l": "b",
+              "t": "are the tranches of securitised products that only pay out after all other tranches have been paid out."
+            },
+            {
+              "l": "c",
+              "t": "are the tranches that are sold to the most risk-averse investors."
+            },
+            {
+              "l": "d",
+              "t": "are the tranches that have the shortest duration."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_l7",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "Junior ('toxic waste') tranches are paid only after all other tranches. They carry the highest risk and therefore the highest expected return, and they go to investors with a large risk appetite.",
+          "source": "Lecture 7, 'Securitisation: first and second steps'",
+          "origin": "Final exam Oct 2024 Q5 · also in: Old-exam pool #55"
+        },
+        {
+          "num": 6,
+          "qid": "P-56",
+          "stem": "Consider a portfolio that consists of two corporate bonds that are identical to each other, except for their probability of default. The first corporate bond has a probability of default of 20 percent, whereas the second corporate bond has a probability of default of 30 percent. Assume that the defaults in the two bonds are completely uncorrelated to each other. The average probability of default of the portfolio of the senior and junior tranches is at ___ percent, the probability of default of the senior tranche is at ___ percent and the probability of default of the junior tranche is at ___ percent. You need to assume that the senior and junior tranche are of the same size.",
+          "options": [
+            {
+              "l": "a",
+              "t": "25; 6; 44"
+            },
+            {
+              "l": "b",
+              "t": "50; 25; 45"
+            },
+            {
+              "l": "c",
+              "t": "25; 12.5; 78.5"
+            },
+            {
+              "l": "d",
+              "t": "None of the other three answers is correct."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_l7",
+          "kind": "calc",
+          "fmt": "respectively",
+          "explanation": "Average PD = (0.2 + 0.3)/2 = 25 %. Senior = 0.2 × 0.3 = 6 %. Junior = 1 − 0.8 × 0.7 = 44 %. Check: (6 + 44)/2 = 25 %.",
+          "source": "Lecture 7, securitisation example 1",
+          "origin": "Final exam Oct 2024 Q6 · also in: Old-exam pool #56"
+        },
+        {
+          "num": 7,
+          "qid": "P-57",
+          "stem": "Rather than issuing long-term debt, a Structured Investment Vehicle (SIV) typically sells",
+          "options": [
+            {
+              "l": "a",
+              "t": "asset-backed government bonds."
+            },
+            {
+              "l": "b",
+              "t": "asset-backed subprime corporate bonds."
+            },
+            {
+              "l": "c",
+              "t": "asset-backed commercial papers."
+            },
+            {
+              "l": "d",
+              "t": "deposits."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_l7",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "SIVs financed their long-term ABS holdings by issuing short-term asset-backed commercial paper.",
+          "source": "Lecture 7, 'Securitisation process: maturity mismatch'",
+          "origin": "Final exam Oct 2024 Q7 · also in: Old-exam pool #57"
+        },
+        {
+          "num": 8,
+          "qid": "P-58",
+          "stem": "Debt deflation is defined as a situation in which",
+          "options": [
+            {
+              "l": "a",
+              "t": "an economic downturn causes the price level to fall and thus causing a deterioration in firms’ net worth because of the increased burden of indebtedness."
+            },
+            {
+              "l": "b",
+              "t": "rising interest rates worsen adverse selection and moral-hazard problems."
+            },
+            {
+              "l": "c",
+              "t": "lenders reduce their lending due to declining stock prices (equity deflation) that lowers the value of collateral."
+            },
+            {
+              "l": "d",
+              "t": "corporations pay back their loans before the scheduled maturity date in order to reduce their debts."
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_l6",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "Debt deflation: a falling price level raises the real burden of nominal debt while asset values do not rise, so firms' real net worth falls. Lending falls and activity contracts further.",
+          "source": "Lecture 6, 'Dynamics of crises in advanced economies' (stage three)",
+          "origin": "Final exam Oct 2024 Q8 · also in: Old-exam pool #58"
+        },
+        {
+          "num": 9,
+          "qid": "F20-6",
+          "stem": "Which of the following problems was mentioned in the discussion of the East-Asian crisis of 1997-1998?",
+          "options": [
+            {
+              "l": "a",
+              "t": "The fact that the liberalisation of the capital account prior to the crisis decreased capital inflows into the crisis countries."
+            },
+            {
+              "l": "b",
+              "t": "The fact that the inflation rates in the crisis countries prior to the crisis were below the inflation rate of the United States such that deflation risks in the US caused hefty capital inflows into the crisis countries."
+            },
+            {
+              "l": "c",
+              "t": "The balance sheets of firms and banks worsened due to the maturity mismatch, which created the fear that appreciations of the currencies of the crisis countries would massively increase the domestic-currency value of debt that was denominated in foreign currency."
+            },
+            {
+              "l": "d",
+              "t": "The fact that the fixed exchange rate of the crisis countries ensured that the exchange rate of these countries remained virtually constant against the US dollar prior to the outbreak of the crisis."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_l6",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "Before the crisis the five countries kept a virtually fixed exchange rate against the US dollar. (a) Capital-account liberalisation increased capital inflows; (b) inflation was higher than in the US; (c) the feared move was a depreciation, not an appreciation.",
+          "source": "Lecture 6, 'The East-Asian crisis: major developments before the crisis'",
+          "origin": "Final exam Oct 2024 Q9 · also in: Final exam 2020 Q6, Old-exam pool #59"
+        },
+        {
+          "num": 10,
+          "qid": "F25-10",
+          "stem": "Assume that deposits (D) are at 10,000 and that the currency ratio is at 20 percent. The money supply M = M1 then is",
+          "options": [
+            {
+              "l": "a",
+              "t": "at 10,000/1.2"
+            },
+            {
+              "l": "b",
+              "t": "at 12,000"
+            },
+            {
+              "l": "c",
+              "t": "at 50,000"
+            },
+            {
+              "l": "d",
+              "t": "impossible to calculate on the basis of the above information."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_l9",
+          "kind": "calc",
+          "fmt": "single",
+          "explanation": "M1 = C + D = c × D + D = 0.2 × 10,000 + 10,000 = 12,000.",
+          "source": "Lecture 9",
+          "origin": "Final exam Oct 2024 Q10 · also in: Final exam Oct 2025 Q10, Old-exam pool #60"
+        },
+        {
+          "num": 11,
+          "qid": "P-61",
+          "stem": "We know that the banking sector holds required reserves of €20 million, that the deposits on the liabilities side of the balance sheet of the banking sector amount to €200 million and that the banking sector holds €20 million in government bonds. Assume that the central bank buys government bonds for a total of €3 million from the banking sector. What will be the change in deposits that is caused by these purchases of government bonds within the simple deposit creation model (“the simple model”)?",
+          "options": [
+            {
+              "l": "a",
+              "t": "Deposits decrease by €3 million."
+            },
+            {
+              "l": "b",
+              "t": "Deposits increase by €3 million."
+            },
+            {
+              "l": "c",
+              "t": "Deposits increase by €30 million but only if e is at 0.1 and c is at 0.2."
+            },
+            {
+              "l": "d",
+              "t": "Deposits increase by €30 million."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_l9",
+          "kind": "calc",
+          "fmt": "single",
+          "explanation": "Simple model: r = RR/D = 20/200 = 0.10, so the deposit multiplier is 10. A €3 million purchase adds €3 million in reserves, so ΔD = 3 / 0.10 = €30 million. Option (c) is wrong because e and c play no role in the simple model.",
+          "source": "Lecture 9, simple deposit multiplier",
+          "origin": "Final exam Oct 2024 Q11 · also in: Old-exam pool #61"
+        },
+        {
+          "num": 12,
+          "qid": "P-62",
+          "stem": "A wave of recent bank robberies in country ABC has terrified deposit holders. In fact, deposit holders decide to hold more cash. Assume that the banks in country ABC use part of their reserves for giving loans. Everything else held constant (i.e., ceteris paribus), this decision of deposit holders to hold more cash",
+          "options": [
+            {
+              "l": "a",
+              "t": "decreases M1 but not M2."
+            },
+            {
+              "l": "b",
+              "t": "decreases the amount of high-powered money."
+            },
+            {
+              "l": "c",
+              "t": "decreases M1."
+            },
+            {
+              "l": "d",
+              "t": "decreases the simple deposit multiplier."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_l9",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "Holding more cash raises c, which lowers the money multiplier and therefore M1. The monetary base only changes composition, and the simple deposit multiplier 1/r is unaffected. M2 falls too, so (a) is wrong.",
+          "source": "Lecture 9, factors affecting M1",
+          "origin": "Final exam Oct 2024 Q12 · also in: Old-exam pool #62"
+        },
+        {
+          "num": 13,
+          "qid": "P-63",
+          "stem": "The time-inconsistency problem in monetary policy tells us that if policymakers use discretionary policy, there is a ________ probability that ________ will be higher when compared with policy makers that follow a behaviour rule.",
+          "options": [
+            {
+              "l": "a",
+              "t": "higher; the inflation rate"
+            },
+            {
+              "l": "b",
+              "t": "lower; the inflation rate"
+            },
+            {
+              "l": "c",
+              "t": "higher; the maturity mismatch"
+            },
+            {
+              "l": "d",
+              "t": "lower; asymmetric information"
+            }
+          ],
+          "correct": [
+            "a"
+          ],
+          "note": "",
+          "topic": "t_l10",
+          "kind": "concept",
+          "fmt": "respectively",
+          "explanation": "With discretion, agents expect short-run stimulus, raise their inflation expectations, and inflation ends up higher without extra growth. A credible behaviour rule (nominal anchor) prevents this.",
+          "source": "Lecture 8, time-inconsistency problem; Lecture 10, 'Behaviour rule and nominal anchor'",
+          "origin": "Final exam Oct 2024 Q13 · also in: Old-exam pool #63"
+        },
+        {
+          "num": 14,
+          "qid": "P-64",
+          "stem": "In the United States, open-market-operations are executed by",
+          "options": [
+            {
+              "l": "a",
+              "t": "The United States Treasury."
+            },
+            {
+              "l": "b",
+              "t": "The central banks of each of the individual 50 states of the United States."
+            },
+            {
+              "l": "c",
+              "t": "The Federal Reserve Bank of New York."
+            },
+            {
+              "l": "d",
+              "t": "The Governing Council."
+            }
+          ],
+          "correct": [
+            "c"
+          ],
+          "note": "",
+          "topic": "t_l8",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "The FOMC decides, and the trading desk of the Federal Reserve Bank of New York carries out the OMOs centrally.",
+          "source": "Lecture 8, 'Federal Open Market Committee'",
+          "origin": "Final exam Oct 2024 Q14 · also in: Old-exam pool #64"
+        },
+        {
+          "num": 15,
+          "qid": "P-65",
+          "stem": "Since the start of the Single Supervisory Mechanism (SSM), the ECB supervises",
+          "options": [
+            {
+              "l": "a",
+              "t": "all significant banks in Europe."
+            },
+            {
+              "l": "b",
+              "t": "all significant financial intermediaries in the euro area."
+            },
+            {
+              "l": "c",
+              "t": "all banks in the euro area."
+            },
+            {
+              "l": "d",
+              "t": "all significant banks in the euro area."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_l8",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "Under the SSM the ECB directly supervises all 'significant' banks in the euro area (100+ banks, more than 80 % of assets). Smaller banks stay with national supervisors.",
+          "source": "Lecture 8, 'Single Supervisory Mechanism (SSM, 2014)'",
+          "origin": "Final exam Oct 2024 Q15 · also in: Old-exam pool #65"
+        },
+        {
+          "num": 16,
+          "qid": "P-66",
+          "stem": "You have to examine the validity of the following statements on independence of central banks.\nA. Instrument independence refers to the ability of the central bank to set the goals of monetary policy.\nB. Goal independence refers to the ability of the central bank to set the instruments of monetary policy.\nC. Financial independence refers to the ability of the central bank to give credits to political authorities whilst not allowing it to receive credits from political authorities.\nD. Political independence refers to the ability of the central bank to design monetary policy without taking instructions from political authorities.\n\nHow many of the above four statements are correct?",
+          "options": [
+            {
+              "l": "a",
+              "t": "0 of the above four statements are correct."
+            },
+            {
+              "l": "b",
+              "t": "1 of the above four statements is correct."
+            },
+            {
+              "l": "c",
+              "t": "2 of the above four statements are correct."
+            },
+            {
+              "l": "d",
+              "t": "3 of the above four statements are correct."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_l8",
+          "kind": "concept",
+          "fmt": "howmany",
+          "explanation": "A and B swap the definitions, and C is wrong because financial independence means setting its own budget. D is correct: political independence means not taking instructions from political authorities on monetary policy. One statement is correct.",
+          "source": "Lecture 8, 'Central bank independence'",
+          "origin": "Final exam Oct 2024 Q16 · also in: Old-exam pool #66"
+        },
+        {
+          "num": 17,
+          "qid": "P-67",
+          "stem": "In the so-called market for reserves, we see the interplay of the demand for and the supply of reserves. You have to analyse the validity of the following statements.\nA. The supply curve of reserves is completely vertical since the central bank autonomously decides about the quantity of reserves.\nB. The overnight interbank interest rate cannot equal the lending rate without leading to arbitrage operations by the banking sector.\nC. The demand for reserves initially is downward-sloping but becomes upward-sloping for a large enough quantity of reserves.\nD. OMOs increase the borrowed reserves.\n\nHow many of the above statements are not correct?",
+          "options": [
+            {
+              "l": "a",
+              "t": "one of the above statements is not correct."
+            },
+            {
+              "l": "b",
+              "t": "two of the above statements are not correct."
+            },
+            {
+              "l": "c",
+              "t": "three of the above statements are not correct."
+            },
+            {
+              "l": "d",
+              "t": "four of the above statements are not correct."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_l10",
+          "kind": "concept",
+          "fmt": "howmany",
+          "explanation": "A: supply is horizontal at the lending rate, not completely vertical. B: i can equal il; arbitrage needs i > il. C: demand becomes flat at the deposit rate, not upward-sloping. D: OMOs change non-borrowed reserves. All four are wrong.",
+          "source": "Lecture 10, market for reserves",
+          "origin": "Final exam Oct 2024 Q17 · also in: Old-exam pool #67"
+        },
+        {
+          "num": 18,
+          "qid": "P-68",
+          "stem": "Central banks currently argue that either a dual or hierarchical mandate is acceptable as long as ________ is the primary goal in the ________.",
+          "options": [
+            {
+              "l": "a",
+              "t": "interest rate stability; short run."
+            },
+            {
+              "l": "b",
+              "t": "price stability; long run."
+            },
+            {
+              "l": "c",
+              "t": "reducing business-cycle fluctuations; short run."
+            },
+            {
+              "l": "d",
+              "t": "maximising output; long run."
+            }
+          ],
+          "correct": [
+            "b"
+          ],
+          "note": "",
+          "topic": "t_l10",
+          "kind": "concept",
+          "fmt": "respectively",
+          "explanation": "A dual mandate (Fed) or a hierarchical mandate (ECB) is acceptable as long as price stability is the primary goal in the long run. There is no long-run trade-off between price stability and the other goals.",
+          "source": "Lecture 8 (price stability as primary goal); Lecture 10 (dual vs hierarchical mandate)",
+          "origin": "Final exam Oct 2024 Q18 · also in: Old-exam pool #68"
+        },
+        {
+          "num": 19,
+          "qid": "P-69",
+          "stem": "The Transmission Protection Instrument (TPI)",
+          "options": [
+            {
+              "l": "a",
+              "t": "would allow the ECB in exceptional times to buy government bonds in the primary market."
+            },
+            {
+              "l": "b",
+              "t": "intends to increase yields of government bonds in order to increase the revenues of commercial banks."
+            },
+            {
+              "l": "c",
+              "t": "would imply an increase in reserves in contrast to QE where reserves decrease."
+            },
+            {
+              "l": "d",
+              "t": "does not have the same effects on reserves when compared with QE."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_l10",
+          "kind": "concept",
+          "fmt": "single",
+          "explanation": "TPI purchases are sterilised, so unlike QE they do not raise reserves. (a) Only secondary-market purchases are allowed; (b) the aim is to counter unwarranted rises in yields; (c) QE increases reserves, it does not lower them.",
+          "source": "Lecture 10, 'Transmission Protection Instrument (TPI, 2022-)'",
+          "origin": "Final exam Oct 2024 Q19 · also in: Old-exam pool #69"
+        },
+        {
+          "num": 20,
+          "qid": "F25-20",
+          "stem": "Use the Taylor rule as it was described in the lectures. Assume that you receive the following information: the equilibrium real interest rate is at 1 percent, the output gap is at 1 percent, the inflation rate is at 3 percent and the nominal interest rate target of the central bank is at 5.5 percent. We then know that",
+          "options": [
+            {
+              "l": "a",
+              "t": "the inflation target is at 0 percent."
+            },
+            {
+              "l": "b",
+              "t": "the inflation target is at 0.25 percent."
+            },
+            {
+              "l": "c",
+              "t": "the inflation target is at 0.5 percent."
+            },
+            {
+              "l": "d",
+              "t": "the inflation target is at a level that is different from the levels that are specified in the other answers."
+            }
+          ],
+          "correct": [
+            "d"
+          ],
+          "note": "",
+          "topic": "t_l10",
+          "kind": "calc",
+          "fmt": "single",
+          "explanation": "5.5 = π + r* + 0.5(π − π*) + 0.5 × gap = 3 + 1 + 0.5(3 − π*) + 0.5, so 0.5(3 − π*) = 1 and π* = 1 %. In this version 1 % is not among (a)–(c), so the answer is (d). (In the 2023 and 2025 versions, 1 % is option c.)",
+          "source": "Lecture 10, 'Tactics: the Taylor rule'",
+          "origin": "Final exam Oct 2024 Q20 · also in: Final exam Oct 2025 Q20, Exam Jan 2023 Q20, Old-exam pool #70, Old-exam pool #160"
         }
       ]
     },
@@ -1638,7 +2306,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "5.5 = π + r* + 0.5(π − π*) + 0.5 × gap = 3 + 1 + 0.5(3 − π*) + 0.5. So 0.5(3 − π*) = 1, which gives π* = 1 %.",
           "source": "Lecture 10, 'Tactics: the Taylor rule'",
-          "origin": "Exam Jan 2023 Q20 · also in: Final exam Oct 2025 Q20, Old-exam pool #70, Old-exam pool #160"
+          "origin": "Exam Jan 2023 Q20 · also in: Final exam Oct 2025 Q20, Final exam Oct 2024 Q20, Old-exam pool #70, Old-exam pool #160"
         }
       ]
     },
@@ -2149,7 +2817,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Before the crisis the five countries kept a virtually fixed exchange rate against the US dollar. (a) Capital-account liberalisation increased capital inflows; (b) inflation was higher than in the US; (c) the feared move was a depreciation, not an appreciation.",
           "source": "Lecture 6, 'The East-Asian crisis: major developments before the crisis'",
-          "origin": "Final exam 2020 Q6 · also in: Old-exam pool #59"
+          "origin": "Final exam 2020 Q6 · also in: Final exam Oct 2024 Q9, Old-exam pool #59"
         },
         {
           "num": 7,
@@ -2519,7 +3187,7 @@ window.ANATOMIE_DATA = {
     {
       "id": "pool",
       "label": "Old-exam question pool (new questions)",
-      "source": "47 questions from COMBINED-oldexam.pdf that are not in the five exams above · pre-midterm questions and duplicates removed",
+      "source": "30 questions from COMBINED-oldexam.pdf that are not in the six exams above · pre-midterm questions and duplicates removed",
       "rev": 1,
       "questions": [
         {
@@ -2785,567 +3453,6 @@ window.ANATOMIE_DATA = {
           "explanation": "Standing facilities are the deposit facility (deposit rate) and the marginal lending facility (lending rate). Together they form the corridor for the overnight rate.",
           "source": "Lecture 10, 'Conventional tools of monetary policy'",
           "origin": "Old-exam pool #20"
-        },
-        {
-          "num": 51,
-          "qid": "P-51",
-          "stem": "Financial markets and financial intermediaries are regulated for various reasons. Which of the following four features is one of the features of the regulation of financial intermediaries?",
-          "options": [
-            {
-              "l": "a",
-              "t": "requiring banks to quickly decrease their capital when their ratio of capital to risk-weighted assets rises above the levels that are determined within the Basel Accords."
-            },
-            {
-              "l": "b",
-              "t": "requiring pension funds to invest in so-called junk bonds."
-            },
-            {
-              "l": "c",
-              "t": "reducing the amount of deposits that are guaranteed within the deposit-insurance system."
-            },
-            {
-              "l": "d",
-              "t": "allowing commercial banks with liquidity problems to call upon the central bank in the latter’s role as lender of last resort (LOLR)."
-            }
-          ],
-          "correct": [
-            "d"
-          ],
-          "note": "",
-          "topic": "t_l11",
-          "kind": "concept",
-          "fmt": "single",
-          "explanation": "The lender of last resort is one of the government safety nets, along with deposit insurance. The other three state the opposite of real regulation.",
-          "source": "Lecture 11, 'Categories of financial regulation'",
-          "origin": "Old-exam pool #51"
-        },
-        {
-          "num": 52,
-          "qid": "P-52",
-          "stem": "When the capital of a bank falls below the minimum capital requirements of the Basel II agreement, the following action cannot bring it back towards fulfilling these requirements:",
-          "options": [
-            {
-              "l": "a",
-              "t": "Decreasing dividends."
-            },
-            {
-              "l": "b",
-              "t": "Decreasing capital."
-            },
-            {
-              "l": "c",
-              "t": "Selling government bonds that it owns and putting the proceeds into the reserves."
-            },
-            {
-              "l": "d",
-              "t": "Selling loans and putting the proceeds into the reserves."
-            }
-          ],
-          "correct": [
-            "b"
-          ],
-          "note": "",
-          "topic": "t_l11",
-          "kind": "concept",
-          "fmt": "single",
-          "explanation": "Reducing capital lowers C / RWA even further. Cutting dividends raises C through retained earnings. Selling government bonds or loans and holding the proceeds as reserves (risk weight 0 %) lowers RWA.",
-          "source": "Lecture 11, 'The danger of pro-cyclicality ...' (ways to raise C/RWA)",
-          "origin": "Old-exam pool #52"
-        },
-        {
-          "num": 53,
-          "qid": "P-53",
-          "stem": "Which of the following four objectives is not amongst the intermediate objectives of macroprudential regulation?",
-          "options": [
-            {
-              "l": "a",
-              "t": "Reducing excessive credit growth and leverage."
-            },
-            {
-              "l": "b",
-              "t": "Preventing excessive maturity mismatch and market illiquidity."
-            },
-            {
-              "l": "c",
-              "t": "Increasing direct and indirect exposure concentrations."
-            },
-            {
-              "l": "d",
-              "t": "Preventing misaligned incentives and moral-hazard incentives."
-            }
-          ],
-          "correct": [
-            "c"
-          ],
-          "note": "",
-          "topic": "t_l11",
-          "kind": "concept",
-          "fmt": "single",
-          "explanation": "The ESRB's objective is to prevent (reduce) direct and indirect exposure concentrations, not increase them. The other three are intermediate objectives.",
-          "source": "Veestraeten (2019), section 3",
-          "origin": "Old-exam pool #53"
-        },
-        {
-          "num": 54,
-          "qid": "P-54",
-          "stem": "Which of the following events did not take place in the five years before the Global Financial Crisis of 2007-2008?",
-          "options": [
-            {
-              "l": "a",
-              "t": "Low interest rates."
-            },
-            {
-              "l": "b",
-              "t": "Low inflation rates."
-            },
-            {
-              "l": "c",
-              "t": "The securitisation process."
-            },
-            {
-              "l": "d",
-              "t": "The shift from the ‘originate to distribute’ to the ‘originate and hold’ model of banking."
-            }
-          ],
-          "correct": [
-            "d"
-          ],
-          "note": "",
-          "topic": "t_l7",
-          "kind": "concept",
-          "fmt": "single",
-          "explanation": "The shift ran the other way, from 'originate and hold' to 'originate to distribute'. Low interest rates, low inflation and securitisation all marked the years before the crisis.",
-          "source": "Lecture 7",
-          "origin": "Old-exam pool #54"
-        },
-        {
-          "num": 55,
-          "qid": "P-55",
-          "stem": "The so-called ‘junior’ tranches",
-          "options": [
-            {
-              "l": "a",
-              "t": "are the tranches with the highest risk and hence lowest expected return."
-            },
-            {
-              "l": "b",
-              "t": "are the tranches of securitised products that only pay out after all other tranches have been paid out."
-            },
-            {
-              "l": "c",
-              "t": "are the tranches that are sold to the most risk-averse investors."
-            },
-            {
-              "l": "d",
-              "t": "are the tranches that have the shortest duration."
-            }
-          ],
-          "correct": [
-            "b"
-          ],
-          "note": "",
-          "topic": "t_l7",
-          "kind": "concept",
-          "fmt": "single",
-          "explanation": "Junior ('toxic waste') tranches are paid only after all other tranches. They carry the highest risk and therefore the highest expected return, and they go to investors with a large risk appetite.",
-          "source": "Lecture 7, 'Securitisation: first and second steps'",
-          "origin": "Old-exam pool #55"
-        },
-        {
-          "num": 56,
-          "qid": "P-56",
-          "stem": "Consider a portfolio that consists of two corporate bonds that are identical to each other, except for their probability of default. The first corporate bond has a probability of default of 20 percent, whereas the second corporate bond has a probability of default of 30 percent. Assume that the defaults in the two bonds are completely uncorrelated to each other. The average probability of default of the portfolio of the senior and junior tranches is at ___ percent, the probability of default of the senior tranche is at ___ percent and the probability of default of the junior tranche is at ___ percent. You need to assume that the senior and junior tranche are of the same size.",
-          "options": [
-            {
-              "l": "a",
-              "t": "25; 6; 44"
-            },
-            {
-              "l": "b",
-              "t": "50; 25; 45"
-            },
-            {
-              "l": "c",
-              "t": "25; 12.5; 78.5"
-            },
-            {
-              "l": "d",
-              "t": "None of the other three answers is correct."
-            }
-          ],
-          "correct": [
-            "a"
-          ],
-          "note": "",
-          "topic": "t_l7",
-          "kind": "calc",
-          "fmt": "respectively",
-          "explanation": "Average PD = (0.2 + 0.3)/2 = 25 %. Senior = 0.2 × 0.3 = 6 %. Junior = 1 − 0.8 × 0.7 = 44 %. Check: (6 + 44)/2 = 25 %.",
-          "source": "Lecture 7, securitisation example 1",
-          "origin": "Old-exam pool #56"
-        },
-        {
-          "num": 57,
-          "qid": "P-57",
-          "stem": "Rather than issuing long-term debt, a Structured Investment Vehicle (SIV) typically sells",
-          "options": [
-            {
-              "l": "a",
-              "t": "asset-backed government bonds."
-            },
-            {
-              "l": "b",
-              "t": "asset-backed subprime corporate bonds."
-            },
-            {
-              "l": "c",
-              "t": "asset-backed commercial papers."
-            },
-            {
-              "l": "d",
-              "t": "deposits."
-            }
-          ],
-          "correct": [
-            "c"
-          ],
-          "note": "",
-          "topic": "t_l7",
-          "kind": "concept",
-          "fmt": "single",
-          "explanation": "SIVs financed their long-term ABS holdings by issuing short-term asset-backed commercial paper.",
-          "source": "Lecture 7, 'Securitisation process: maturity mismatch'",
-          "origin": "Old-exam pool #57"
-        },
-        {
-          "num": 58,
-          "qid": "P-58",
-          "stem": "Debt deflation is defined as a situation in which",
-          "options": [
-            {
-              "l": "a",
-              "t": "an economic downturn causes the price level to fall and thus causing a deterioration in firms’ net worth because of the increased burden of indebtedness."
-            },
-            {
-              "l": "b",
-              "t": "rising interest rates worsen adverse selection and moral-hazard problems."
-            },
-            {
-              "l": "c",
-              "t": "lenders reduce their lending due to declining stock prices (equity deflation) that lowers the value of collateral."
-            },
-            {
-              "l": "d",
-              "t": "corporations pay back their loans before the scheduled maturity date in order to reduce their debts."
-            }
-          ],
-          "correct": [
-            "a"
-          ],
-          "note": "",
-          "topic": "t_l6",
-          "kind": "concept",
-          "fmt": "single",
-          "explanation": "Debt deflation: a falling price level raises the real burden of nominal debt while asset values do not rise, so firms' real net worth falls. Lending falls and activity contracts further.",
-          "source": "Lecture 6, 'Dynamics of crises in advanced economies' (stage three)",
-          "origin": "Old-exam pool #58"
-        },
-        {
-          "num": 61,
-          "qid": "P-61",
-          "stem": "We know that the banking sector holds required reserves of €20 million, that the deposits on the liabilities side of the balance sheet of the banking sector amount to €200 million and that the banking sector holds €20 million in government bonds. Assume that the central bank buys government bonds for a total of €3 million from the banking sector. What will be the change in deposits that is caused by these purchases of government bonds within the simple deposit creation model (“the simple model”)?",
-          "options": [
-            {
-              "l": "a",
-              "t": "Deposits decrease by €3 million."
-            },
-            {
-              "l": "b",
-              "t": "Deposits increase by €3 million."
-            },
-            {
-              "l": "c",
-              "t": "Deposits increase by €30 million but only if e is at 0.1 and c is at 0.2."
-            },
-            {
-              "l": "d",
-              "t": "Deposits increase by €30 million."
-            }
-          ],
-          "correct": [
-            "d"
-          ],
-          "note": "",
-          "topic": "t_l9",
-          "kind": "calc",
-          "fmt": "single",
-          "explanation": "Simple model: r = RR/D = 20/200 = 0.10, so the deposit multiplier is 10. A €3 million purchase adds €3 million in reserves, so ΔD = 3 / 0.10 = €30 million. Option (c) is wrong because e and c play no role in the simple model.",
-          "source": "Lecture 9, simple deposit multiplier",
-          "origin": "Old-exam pool #61"
-        },
-        {
-          "num": 62,
-          "qid": "P-62",
-          "stem": "A wave of recent bank robberies in country ABC has terrified deposit holders. In fact, deposit holders decide to hold more cash. Assume that the banks in country ABC use part of their reserves for giving loans. Everything else held constant (i.e., ceteris paribus), this decision of deposit holders to hold more cash",
-          "options": [
-            {
-              "l": "a",
-              "t": "decreases M1 but not M2."
-            },
-            {
-              "l": "b",
-              "t": "decreases the amount of high-powered money."
-            },
-            {
-              "l": "c",
-              "t": "decreases M1."
-            },
-            {
-              "l": "d",
-              "t": "decreases the simple deposit multiplier."
-            }
-          ],
-          "correct": [
-            "c"
-          ],
-          "note": "",
-          "topic": "t_l9",
-          "kind": "concept",
-          "fmt": "single",
-          "explanation": "Holding more cash raises c, which lowers the money multiplier and therefore M1. The monetary base only changes composition, and the simple deposit multiplier 1/r is unaffected. M2 falls too, so (a) is wrong.",
-          "source": "Lecture 9, factors affecting M1",
-          "origin": "Old-exam pool #62"
-        },
-        {
-          "num": 63,
-          "qid": "P-63",
-          "stem": "The time-inconsistency problem in monetary policy tells us that if policymakers use discretionary policy, there is a ________ probability that ________ will be higher when compared with policy makers that follow a behaviour rule.",
-          "options": [
-            {
-              "l": "a",
-              "t": "higher; the inflation rate"
-            },
-            {
-              "l": "b",
-              "t": "lower; the inflation rate"
-            },
-            {
-              "l": "c",
-              "t": "higher; the maturity mismatch"
-            },
-            {
-              "l": "d",
-              "t": "lower; asymmetric information"
-            }
-          ],
-          "correct": [
-            "a"
-          ],
-          "note": "",
-          "topic": "t_l10",
-          "kind": "concept",
-          "fmt": "respectively",
-          "explanation": "With discretion, agents expect short-run stimulus, raise their inflation expectations, and inflation ends up higher without extra growth. A credible behaviour rule (nominal anchor) prevents this.",
-          "source": "Lecture 8, time-inconsistency problem; Lecture 10, 'Behaviour rule and nominal anchor'",
-          "origin": "Old-exam pool #63"
-        },
-        {
-          "num": 64,
-          "qid": "P-64",
-          "stem": "In the United States, open-market-operations are executed by",
-          "options": [
-            {
-              "l": "a",
-              "t": "The United States Treasury."
-            },
-            {
-              "l": "b",
-              "t": "The central banks of each of the individual 50 states of the United States."
-            },
-            {
-              "l": "c",
-              "t": "The Federal Reserve Bank of New York."
-            },
-            {
-              "l": "d",
-              "t": "The Governing Council."
-            }
-          ],
-          "correct": [
-            "c"
-          ],
-          "note": "",
-          "topic": "t_l8",
-          "kind": "concept",
-          "fmt": "single",
-          "explanation": "The FOMC decides, and the trading desk of the Federal Reserve Bank of New York carries out the OMOs centrally.",
-          "source": "Lecture 8, 'Federal Open Market Committee'",
-          "origin": "Old-exam pool #64"
-        },
-        {
-          "num": 65,
-          "qid": "P-65",
-          "stem": "Since the start of the Single Supervisory Mechanism (SSM), the ECB supervises",
-          "options": [
-            {
-              "l": "a",
-              "t": "all significant banks in Europe."
-            },
-            {
-              "l": "b",
-              "t": "all significant financial intermediaries in the euro area."
-            },
-            {
-              "l": "c",
-              "t": "all banks in the euro area."
-            },
-            {
-              "l": "d",
-              "t": "all significant banks in the euro area."
-            }
-          ],
-          "correct": [
-            "d"
-          ],
-          "note": "",
-          "topic": "t_l8",
-          "kind": "concept",
-          "fmt": "single",
-          "explanation": "Under the SSM the ECB directly supervises all 'significant' banks in the euro area (100+ banks, more than 80 % of assets). Smaller banks stay with national supervisors.",
-          "source": "Lecture 8, 'Single Supervisory Mechanism (SSM, 2014)'",
-          "origin": "Old-exam pool #65"
-        },
-        {
-          "num": 66,
-          "qid": "P-66",
-          "stem": "You have to examine the validity of the following statements on independence of central banks.\nA. Instrument independence refers to the ability of the central bank to set the goals of monetary policy.\nB. Goal independence refers to the ability of the central bank to set the instruments of monetary policy.\nC. Financial independence refers to the ability of the central bank to give credits to political authorities whilst not allowing it to receive credits from political authorities.\nD. Political independence refers to the ability of the central bank to design monetary policy without taking instructions from political authorities.\n\nHow many of the above four statements are correct?",
-          "options": [
-            {
-              "l": "a",
-              "t": "0 of the above four statements are correct."
-            },
-            {
-              "l": "b",
-              "t": "1 of the above four statements is correct."
-            },
-            {
-              "l": "c",
-              "t": "2 of the above four statements are correct."
-            },
-            {
-              "l": "d",
-              "t": "3 of the above four statements are correct."
-            }
-          ],
-          "correct": [
-            "b"
-          ],
-          "note": "",
-          "topic": "t_l8",
-          "kind": "concept",
-          "fmt": "howmany",
-          "explanation": "A and B swap the definitions, and C is wrong because financial independence means setting its own budget. D is correct: political independence means not taking instructions from political authorities on monetary policy. One statement is correct.",
-          "source": "Lecture 8, 'Central bank independence'",
-          "origin": "Old-exam pool #66"
-        },
-        {
-          "num": 67,
-          "qid": "P-67",
-          "stem": "In the so-called market for reserves, we see the interplay of the demand for and the supply of reserves. You have to analyse the validity of the following statements.\nA. The supply curve of reserves is completely vertical since the central bank autonomously decides about the quantity of reserves.\nB. The overnight interbank interest rate cannot equal the lending rate without leading to arbitrage operations by the banking sector.\nC. The demand for reserves initially is downward-sloping but becomes upward-sloping for a large enough quantity of reserves.\nD. OMOs increase the borrowed reserves.\n\nHow many of the above statements are not correct?",
-          "options": [
-            {
-              "l": "a",
-              "t": "one of the above statements is not correct."
-            },
-            {
-              "l": "b",
-              "t": "two of the above statements are not correct."
-            },
-            {
-              "l": "c",
-              "t": "three of the above statements are not correct."
-            },
-            {
-              "l": "d",
-              "t": "four of the above statements are not correct."
-            }
-          ],
-          "correct": [
-            "d"
-          ],
-          "note": "",
-          "topic": "t_l10",
-          "kind": "concept",
-          "fmt": "howmany",
-          "explanation": "A: supply is horizontal at the lending rate, not completely vertical. B: i can equal il; arbitrage needs i > il. C: demand becomes flat at the deposit rate, not upward-sloping. D: OMOs change non-borrowed reserves. All four are wrong.",
-          "source": "Lecture 10, market for reserves",
-          "origin": "Old-exam pool #67"
-        },
-        {
-          "num": 68,
-          "qid": "P-68",
-          "stem": "Central banks currently argue that either a dual or hierarchical mandate is acceptable as long as ________ is the primary goal in the ________.",
-          "options": [
-            {
-              "l": "a",
-              "t": "interest rate stability; short run."
-            },
-            {
-              "l": "b",
-              "t": "price stability; long run."
-            },
-            {
-              "l": "c",
-              "t": "reducing business-cycle fluctuations; short run."
-            },
-            {
-              "l": "d",
-              "t": "maximising output; long run."
-            }
-          ],
-          "correct": [
-            "b"
-          ],
-          "note": "",
-          "topic": "t_l10",
-          "kind": "concept",
-          "fmt": "respectively",
-          "explanation": "A dual mandate (Fed) or a hierarchical mandate (ECB) is acceptable as long as price stability is the primary goal in the long run. There is no long-run trade-off between price stability and the other goals.",
-          "source": "Lecture 8 (price stability as primary goal); Lecture 10 (dual vs hierarchical mandate)",
-          "origin": "Old-exam pool #68"
-        },
-        {
-          "num": 69,
-          "qid": "P-69",
-          "stem": "The Transmission Protection Instrument (TPI)",
-          "options": [
-            {
-              "l": "a",
-              "t": "would allow the ECB in exceptional times to buy government bonds in the primary market."
-            },
-            {
-              "l": "b",
-              "t": "intends to increase yields of government bonds in order to increase the revenues of commercial banks."
-            },
-            {
-              "l": "c",
-              "t": "would imply an increase in reserves in contrast to QE where reserves decrease."
-            },
-            {
-              "l": "d",
-              "t": "does not have the same effects on reserves when compared with QE."
-            }
-          ],
-          "correct": [
-            "d"
-          ],
-          "note": "",
-          "topic": "t_l10",
-          "kind": "concept",
-          "fmt": "single",
-          "explanation": "TPI purchases are sterilised, so unlike QE they do not raise reserves. (a) Only secondary-market purchases are allowed; (b) the aim is to counter unwarranted rises in yields; (c) QE increases reserves, it does not lower them.",
-          "source": "Lecture 10, 'Transmission Protection Instrument (TPI, 2022-)'",
-          "origin": "Old-exam pool #69"
         },
         {
           "num": 198,
@@ -4113,7 +4220,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Deleveraging is about capital, not liquidity: loan losses and asset write-downs eat into bank capital (net worth), and with less capital a bank has to shrink its assets, so it cuts lending. Option (a) is a reserves problem, (c) is not the mechanism, and (d) mixes up deposit outflows (liquidity) with capital losses.",
           "source": "Lecture 6, 'Deterioration in financial institutions' balance sheets'; Mishkin ch. 12",
-          "origin": "Representative questions Q1 · also in: Old-exam pool #125"
+          "origin": "Asked in: Representative questions Q1, Old-exam pool #125"
         },
         {
           "num": "F25-8",
@@ -4146,7 +4253,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Deleveraging: value losses on assets (non-performing loans, falling collateral) reduce bank capital, so banks shrink their balance sheets by cutting lending. Deposit withdrawals are a liquidity problem, and issuing new shares is the opposite of deleveraging.",
           "source": "Lecture 6, 'Deterioration in financial institutions' balance sheets'",
-          "origin": "Final exam Oct 2025 Q8 · also in: Exam Jan 2023 Q14, Old-exam pool #150"
+          "origin": "Asked in: Final exam Oct 2025 Q8, Exam Jan 2023 Q14, Old-exam pool #150"
         },
         {
           "num": "F25-9",
@@ -4179,7 +4286,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "After the baht was floated on 2 July 1997, the turmoil spread within weeks to the other crisis countries (contagion, competitive depreciations). (a) The depreciation raised the value of foreign-currency liabilities, not domestic-currency assets; (b) the currency mismatch made a depreciation, not an appreciation, dangerous; (c) the lending boom financed worse and worse projects.",
           "source": "Lecture 6, 'The East-Asian crisis: the ultimate trigger'",
-          "origin": "Final exam Oct 2025 Q9 · also in: Old-exam pool #151"
+          "origin": "Asked in: Final exam Oct 2025 Q9, Old-exam pool #151"
         },
         {
           "num": "R21-11",
@@ -4212,7 +4319,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The sharp depreciations raised the domestic-currency value of the banks' dollar-denominated debt (currency mismatch), so their liabilities rose and net worth fell. (a) Banks borrowed abroad, they did not lend; (b) the dollar rose, it did not fall; (c) the won ultimately plunged.",
           "source": "Lecture 6, East-Asian crisis",
-          "origin": "Resit exam 2021 Q11 · also in: Old-exam pool #14"
+          "origin": "Asked in: Resit exam 2021 Q11, Old-exam pool #14"
         },
         {
           "num": "F20-5",
@@ -4245,7 +4352,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Currency mismatch: when the domestic currency loses value unexpectedly, debt denominated in foreign currency becomes worth more in domestic currency. Liabilities rise and net worth falls.",
           "source": "Lecture 6, 'Unanticipated decline in the value of the domestic currency'",
-          "origin": "Final exam 2020 Q5"
+          "origin": "Asked in: Final exam 2020 Q5"
         },
         {
           "num": "F20-6",
@@ -4278,7 +4385,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Before the crisis the five countries kept a virtually fixed exchange rate against the US dollar. (a) Capital-account liberalisation increased capital inflows; (b) inflation was higher than in the US; (c) the feared move was a depreciation, not an appreciation.",
           "source": "Lecture 6, 'The East-Asian crisis: major developments before the crisis'",
-          "origin": "Final exam 2020 Q6 · also in: Old-exam pool #59"
+          "origin": "Asked in: Final exam Oct 2024 Q9, Final exam 2020 Q6, Old-exam pool #59"
         },
         {
           "num": "P-58",
@@ -4311,7 +4418,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Debt deflation: a falling price level raises the real burden of nominal debt while asset values do not rise, so firms' real net worth falls. Lending falls and activity contracts further.",
           "source": "Lecture 6, 'Dynamics of crises in advanced economies' (stage three)",
-          "origin": "Old-exam pool #58"
+          "origin": "Asked in: Final exam Oct 2024 Q8, Old-exam pool #58"
         },
         {
           "num": "P-204",
@@ -4344,7 +4451,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Debt deflation is an unanticipated fall in the price level that raises the real value of debt and lowers firms' real net worth. (a) gets the net-worth effect backwards.",
           "source": "Lecture 6, debt deflation (stage three)",
-          "origin": "Old-exam pool #204"
+          "origin": "Asked in: Old-exam pool #204"
         },
         {
           "num": "P-250",
@@ -4377,7 +4484,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "With foreign-currency debt, a depreciation raises the domestic-currency value of liabilities, so firms' net worth falls. This worsens adverse selection and moral hazard and reduces banks' willingness to lend.",
           "source": "Lecture 6, 'Unanticipated decline in the value of the domestic currency'",
-          "origin": "Old-exam pool #250"
+          "origin": "Asked in: Old-exam pool #250"
         },
         {
           "num": "P-251",
@@ -4410,13 +4517,13 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The Fed's rate cuts after the internet bubble belong to the run-up to the 2007–08 crisis, not the East-Asian crisis. Competitive depreciations, the peg to the dollar and capital-account liberalisation are all in the East-Asia discussion.",
           "source": "Lecture 6, East-Asian crisis; Lecture 7",
-          "origin": "Old-exam pool #251"
+          "origin": "Asked in: Old-exam pool #251"
         }
       ]
     },
     {
       "id": "t_l7",
-      "label": "L7 – Subprime Crisis 2007–08",
+      "label": "L7 – Subprime Crisis",
       "source": "Old final exams + question pool, no duplicates",
       "questions": [
         {
@@ -4450,7 +4557,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Mortgage A does not default with 80 %, so its PD is 20 %; B's PD is also 20 %. Weighted average PD = 0.75 × 20 % + 0.25 × 20 % = 20 %. The correlation of defaults does not change the average PD of the portfolio, only how risk is split across tranches.",
           "source": "Lecture 7, securitisation example 1",
-          "origin": "Representative questions Q2 · also in: Old-exam pool #126"
+          "origin": "Asked in: Representative questions Q2, Old-exam pool #126"
         },
         {
           "num": "RQ-3",
@@ -4483,7 +4590,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The junior tranche defaults as soon as at least one mortgage defaults: 1 − (1 − p)² = 2p − p², which is larger than the portfolio average p for any 0 < p < 1. Option (a) forgets to subtract p²; p² (the senior PD) is the probability that both default.",
           "source": "Lecture 7, securitisation example 1",
-          "origin": "Representative questions Q3 · also in: Old-exam pool #127"
+          "origin": "Asked in: Representative questions Q3, Old-exam pool #127"
         },
         {
           "num": "RQ-5",
@@ -4516,7 +4623,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "An SIV buys long-term ABS and finances itself by issuing short-term ABCP (about 90 days), so it has a maturity mismatch and funding liquidity risk. (a) reverses the roles (the SIV issues ABCP; the credit line is only a backstop), (b) wrongly says the SIV funds itself with long-term ABS, and (c) describes the SPV.",
           "source": "Lecture 7, 'Securitisation process: maturity mismatch'",
-          "origin": "Representative questions Q5 · also in: Final exam 2020 Q3, Old-exam pool #129"
+          "origin": "Asked in: Representative questions Q5, Final exam 2020 Q3, Old-exam pool #129"
         },
         {
           "num": "RQ-6",
@@ -4549,7 +4656,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Asian countries bought (not sold) large amounts of US securities to keep their exchange rates export-friendly, which helped keep US interest rates low. The house price bubble, the Fed's low-rate policy and the downgrades are all part of the lecture's story.",
           "source": "Lecture 7, '(Too) low interest rates'",
-          "origin": "Representative questions Q6 · also in: Old-exam pool #130"
+          "origin": "Asked in: Representative questions Q6, Old-exam pool #130"
         },
         {
           "num": "F25-4",
@@ -4582,7 +4689,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Time deposits are a traditional banking product. Securitisation, ABCP and mortgage-backed securities are the financial innovations behind the 'originate to distribute' model.",
           "source": "Lecture 7, securitisation",
-          "origin": "Final exam Oct 2025 Q4 · also in: Old-exam pool #146"
+          "origin": "Asked in: Final exam Oct 2025 Q4, Old-exam pool #146"
         },
         {
           "num": "F25-5",
@@ -4615,7 +4722,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Rating agencies advised issuers on how to structure products to get a good rating and then rated those same products, and they were paid by the issuers. The lecture lists this conflict of interest as a disadvantage of securitisation.",
           "source": "Lecture 7, 'Cons of securitisation'",
-          "origin": "Final exam Oct 2025 Q5 · also in: Old-exam pool #147"
+          "origin": "Asked in: Final exam Oct 2025 Q5, Old-exam pool #147"
         },
         {
           "num": "F25-6",
@@ -4648,7 +4755,7 @@ window.ANATOMIE_DATA = {
           "fmt": "howmany",
           "explanation": "PD = 0.2 for both. Junior: 1 − 0.8² = 36 % (A true, B false). Senior: 0.2² = 4 % (C true). Portfolio average 20 % (D false). Higher default correlation reduces credit enhancement (E true), so the second half of F is false. A, C and E are correct: 3.",
           "source": "Lecture 7, securitisation examples",
-          "origin": "Final exam Oct 2025 Q6 · also in: Old-exam pool #148"
+          "origin": "Asked in: Final exam Oct 2025 Q6, Old-exam pool #148"
         },
         {
           "num": "F25-7",
@@ -4681,7 +4788,7 @@ window.ANATOMIE_DATA = {
           "fmt": "howmany",
           "explanation": "A–D are all part of the lecture's story: the housing bubble, Asian purchases of US securities (capital inflows), the Fed's low rates and the ABS downgrades from 2007. E is false: ABCP had shorter maturities than the ABS (that was the maturity mismatch). Four factors are relevant, which is not among options a–c.",
           "source": "Lecture 7",
-          "origin": "Final exam Oct 2025 Q7 · also in: Old-exam pool #149"
+          "origin": "Asked in: Final exam Oct 2025 Q7, Old-exam pool #149"
         },
         {
           "num": "J23-12",
@@ -4714,7 +4821,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "PD A = 0.1, PD B = 0.3, uncorrelated. Average = 20 % (not 15 %). Senior (both default) = 0.1 × 0.3 = 3 % (not 4 %). Junior (at least one defaults) = 1 − 0.9 × 0.7 = 37 %. Tranching redistributes risk, so the tranches still average 20 % and (c) is false.",
           "source": "Lecture 7, securitisation example 1",
-          "origin": "Exam Jan 2023 Q12 · also in: Resit exam 2021 Q10, Old-exam pool #206"
+          "origin": "Asked in: Exam Jan 2023 Q12, Resit exam 2021 Q10, Old-exam pool #206"
         },
         {
           "num": "J23-13",
@@ -4747,7 +4854,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The liquidity backstop is a credit line the SIV can draw on when it cannot roll over its ABCP. The sponsoring bank must then supply liquidity, so the line exposes the bank to liquidity risk. The SIV issues ABCP to investors; it does not buy ABCP from the bank.",
           "source": "Lecture 7, 'Securitisation process: maturity mismatch'",
-          "origin": "Exam Jan 2023 Q13 · also in: Old-exam pool #249, Old-exam pool #256"
+          "origin": "Asked in: Exam Jan 2023 Q13, Old-exam pool #249, Old-exam pool #256"
         },
         {
           "num": "F20-2",
@@ -4780,7 +4887,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Credit enhancement: the more securities in the pool, the larger the share of tranches with a lower PD than the pool average. (a) Tranching does not lower the average PD; (c) higher correlation reduces credit enhancement; (d) has nothing to do with securitisation.",
           "source": "Lecture 7, 'Securitisation: insights'",
-          "origin": "Final exam 2020 Q2 · also in: Old-exam pool #208"
+          "origin": "Asked in: Final exam 2020 Q2, Old-exam pool #208"
         },
         {
           "num": "F20-4",
@@ -4813,7 +4920,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The senior tranche defaults only if both mortgages default: PD × PD. Option (c) is (1 + PD)² − 2PD − 1 = PD². Option (a), 1 − (1 − PD)², is the junior tranche's PD.",
           "source": "Lecture 7, securitisation example 1",
-          "origin": "Final exam 2020 Q4"
+          "origin": "Asked in: Final exam 2020 Q4"
         },
         {
           "num": "P-12",
@@ -4846,7 +4953,7 @@ window.ANATOMIE_DATA = {
           "fmt": "howmany",
           "explanation": "Both PDs are 0.2. A: junior = 1 − 0.8² = 36 %, true. B: false. C: the average is 20 %, so false. D: with a third bond the senior tranche defaults only if all three default: 0.2 × 0.2 × 0.08 = 0.32 % < 4 %, true. E: with perfect correlation there is no credit enhancement, true. A, D and E are correct: 3.",
           "source": "Lecture 7, securitisation examples 1 and 2",
-          "origin": "Old-exam pool #12"
+          "origin": "Asked in: Old-exam pool #12"
         },
         {
           "num": "P-13",
@@ -4879,7 +4986,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Banks moved away from 'originate and hold' towards 'originate to distribute'. The Great Moderation, the Fed's low rates after the dot-com bust and Asian purchases of US bonds were all part of the run-up.",
           "source": "Lecture 7",
-          "origin": "Old-exam pool #13"
+          "origin": "Asked in: Old-exam pool #13"
         },
         {
           "num": "P-54",
@@ -4912,7 +5019,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The shift ran the other way, from 'originate and hold' to 'originate to distribute'. Low interest rates, low inflation and securitisation all marked the years before the crisis.",
           "source": "Lecture 7",
-          "origin": "Old-exam pool #54"
+          "origin": "Asked in: Final exam Oct 2024 Q4, Old-exam pool #54"
         },
         {
           "num": "P-55",
@@ -4945,7 +5052,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Junior ('toxic waste') tranches are paid only after all other tranches. They carry the highest risk and therefore the highest expected return, and they go to investors with a large risk appetite.",
           "source": "Lecture 7, 'Securitisation: first and second steps'",
-          "origin": "Old-exam pool #55"
+          "origin": "Asked in: Final exam Oct 2024 Q5, Old-exam pool #55"
         },
         {
           "num": "P-56",
@@ -4978,7 +5085,7 @@ window.ANATOMIE_DATA = {
           "fmt": "respectively",
           "explanation": "Average PD = (0.2 + 0.3)/2 = 25 %. Senior = 0.2 × 0.3 = 6 %. Junior = 1 − 0.8 × 0.7 = 44 %. Check: (6 + 44)/2 = 25 %.",
           "source": "Lecture 7, securitisation example 1",
-          "origin": "Old-exam pool #56"
+          "origin": "Asked in: Final exam Oct 2024 Q6, Old-exam pool #56"
         },
         {
           "num": "P-57",
@@ -5011,7 +5118,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "SIVs financed their long-term ABS holdings by issuing short-term asset-backed commercial paper.",
           "source": "Lecture 7, 'Securitisation process: maturity mismatch'",
-          "origin": "Old-exam pool #57"
+          "origin": "Asked in: Final exam Oct 2024 Q7, Old-exam pool #57"
         },
         {
           "num": "P-205",
@@ -5044,7 +5151,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Subprime lending let many more households get mortgages, which raised the demand for houses and fed the house price bubble. The shift ran from originate-and-hold to originate-to-distribute, not the other way round.",
           "source": "Lecture 7",
-          "origin": "Old-exam pool #205"
+          "origin": "Asked in: Old-exam pool #205"
         },
         {
           "num": "P-207",
@@ -5077,7 +5184,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "In the second figure, the bank sells the portfolio to the SPV, the SPV sells ABS to the SIV, and the SIV sells ABCP to investors (backed by the bank's credit line). The ABS do not go directly to investors in that figure.",
           "source": "Lecture 7, 'Securitisation process' (second figure)",
-          "origin": "Old-exam pool #207"
+          "origin": "Asked in: Old-exam pool #207"
         },
         {
           "num": "P-209",
@@ -5110,7 +5217,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "AIG had sold large amounts of credit default swaps, i.e. insurance against losses on asset-backed securities. When those securities lost value, AIG faced huge payouts.",
           "source": "Mishkin (2011), 'Over the Cliff'; Lecture 7 (CDS)",
-          "origin": "Old-exam pool #209"
+          "origin": "Asked in: Old-exam pool #209"
         },
         {
           "num": "P-252",
@@ -5143,7 +5250,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "In 'originate and hold' the bank keeps the loan on its balance sheet until maturity and bears the credit risk. So it has strong incentives to screen and monitor borrowers carefully.",
           "source": "Lecture 7, 'Originate and hold model'",
-          "origin": "Old-exam pool #252"
+          "origin": "Asked in: Old-exam pool #252"
         }
       ]
     },
@@ -5183,7 +5290,7 @@ window.ANATOMIE_DATA = {
           "fmt": "howmany",
           "explanation": "All four are on the lecture's list of six benefits of price stability: transparency of relative prices, fewer tax/social security distortions, no arbitrary redistribution, lower inflation risk premia, no unnecessary hedging, and higher benefits of holding cash (lower shoe-leather costs).",
           "source": "Lecture 8, 'Price stability'",
-          "origin": "Representative questions Q7 · also in: Old-exam pool #131"
+          "origin": "Asked in: Representative questions Q7, Old-exam pool #131"
         },
         {
           "num": "RQ-8",
@@ -5216,7 +5323,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Credit rationing is a bank's tool for managing credit risk and has nothing to do with central bank independence. (a)–(c) are the lecture's arguments for independence: it solves the time-inconsistency problem, avoids the political business cycle, and makes direct purchases of government bonds less likely.",
           "source": "Lecture 8, 'Should central banks be independent?'",
-          "origin": "Representative questions Q8 · also in: Old-exam pool #132"
+          "origin": "Asked in: Representative questions Q8, Old-exam pool #132"
         },
         {
           "num": "RQ-9",
@@ -5249,7 +5356,7 @@ window.ANATOMIE_DATA = {
           "fmt": "howmany",
           "explanation": "The Banking Union has three pillars: SSM (supervision, 2014), SRM (resolution, 2016) and EDIS (deposit insurance, proposed but not yet active). SMP and OMT are ECB bond-buying programmes, and CRAP does not exist.",
           "source": "Lecture 8, 'Expanding role of the ECB'",
-          "origin": "Representative questions Q9 · also in: Old-exam pool #133"
+          "origin": "Asked in: Representative questions Q9, Old-exam pool #133"
         },
         {
           "num": "F25-13",
@@ -5282,7 +5389,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Price stability improves (not decreases) the transparency of relative prices. The other three are on the lecture's list of benefits.",
           "source": "Lecture 8, 'Price stability'",
-          "origin": "Final exam Oct 2025 Q13 · also in: Old-exam pool #154"
+          "origin": "Asked in: Final exam Oct 2025 Q13, Old-exam pool #154"
         },
         {
           "num": "F25-14",
@@ -5315,7 +5422,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "In the Fed system, open market operations are implemented centrally by the trading desk of the New York Fed, on the FOMC's directive. (Decentralised implementation through the national central banks is the euro-area set-up.) The Fed's 12 regional Reserve Banks and their supervisory role are real features.",
           "source": "Lecture 8, 'Federal Open Market Committee'",
-          "origin": "Final exam Oct 2025 Q14 · also in: Old-exam pool #155"
+          "origin": "Asked in: Final exam Oct 2025 Q14, Old-exam pool #155"
         },
         {
           "num": "F25-15",
@@ -5348,7 +5455,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The ECB's Governing Council decides on key interest rates, reserve requirements and liquidity provision. The SSM covers only significant banks directly; OMT is a bond-purchase programme; OMOs are carried out by the national central banks, not commercial banks.",
           "source": "Lecture 8, 'Governing Council'",
-          "origin": "Final exam Oct 2025 Q15 · also in: Old-exam pool #156"
+          "origin": "Asked in: Final exam Oct 2025 Q15, Old-exam pool #156"
         },
         {
           "num": "F25-16",
@@ -5381,7 +5488,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "A possible lack of coordination between monetary and fiscal policy is an argument against independence (e.g. US monetary contraction with fiscal expansion in the early 1980s). (b)–(d) are arguments in favour.",
           "source": "Lecture 8, 'Should central banks be independent?'",
-          "origin": "Final exam Oct 2025 Q16 · also in: Old-exam pool #19"
+          "origin": "Asked in: Final exam Oct 2025 Q16, Old-exam pool #19"
         },
         {
           "num": "J23-17",
@@ -5414,7 +5521,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Price stability lowers 'shoe-leather costs', so holding cash becomes more attractive. (a) Stable inflation expectations lower inflation risk premia in nominal rates; the Fisher equation does not imply lower real rates. (b) An inflation target is a nominal anchor. (c) Price stability makes relative prices clearer, not less clear.",
           "source": "Lecture 8, 'Price stability'",
-          "origin": "Exam Jan 2023 Q17 · also in: Final exam 2020 Q10, Old-exam pool #254"
+          "origin": "Asked in: Exam Jan 2023 Q17, Final exam 2020 Q10, Old-exam pool #254"
         },
         {
           "num": "J23-18",
@@ -5447,7 +5554,7 @@ window.ANATOMIE_DATA = {
           "fmt": "howmany",
           "explanation": "All four are wrong. A and B swap the definitions: instrument independence means setting the tools, goal independence means setting the goals. Financial independence means the central bank determines its own budget. Political independence means not taking instructions from politicians on monetary policy, not designing fiscal policy. So 0 are correct.",
           "source": "Lecture 8, 'Central bank independence'",
-          "origin": "Exam Jan 2023 Q18"
+          "origin": "Asked in: Exam Jan 2023 Q18"
         },
         {
           "num": "R21-14",
@@ -5480,7 +5587,7 @@ window.ANATOMIE_DATA = {
           "fmt": "howmany",
           "explanation": "All six statements are exactly the lecture's six benefits of low and stable inflation.",
           "source": "Lecture 8, 'Price stability'",
-          "origin": "Resit exam 2021 Q14"
+          "origin": "Asked in: Resit exam 2021 Q14"
         },
         {
           "num": "R21-15",
@@ -5513,7 +5620,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The Banking Union aims to handle cross-border bank links centrally, ensure a level playing field, create clearer resolution mechanisms and minimise calls on the public purse. Matching US banks' capital levels is not one of its goals.",
           "source": "Lecture 8, 'Expanding role of the ECB'",
-          "origin": "Resit exam 2021 Q15 · also in: Old-exam pool #270"
+          "origin": "Asked in: Resit exam 2021 Q15, Old-exam pool #270"
         },
         {
           "num": "F20-11",
@@ -5546,7 +5653,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The SRM is about resolving failing banks, while supervision of significant euro-area banks comes from the SSM. The premise 'SRM ⇒ supervision' is wrong, so the question does not make sense.",
           "source": "Lecture 8, SSM and SRM",
-          "origin": "Final exam 2020 Q11"
+          "origin": "Asked in: Final exam 2020 Q11"
         },
         {
           "num": "F20-12",
@@ -5579,7 +5686,7 @@ window.ANATOMIE_DATA = {
           "fmt": "howmany",
           "explanation": "I is true (12 regional Federal Reserve Banks) and II is true (they supervise and regulate). III is false: OMOs are executed centrally by the New York Fed's trading desk. Two statements are correct.",
           "source": "Lecture 8, structure of the Federal Reserve System",
-          "origin": "Final exam 2020 Q12"
+          "origin": "Asked in: Final exam 2020 Q12"
         },
         {
           "num": "F20-13",
@@ -5612,7 +5719,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Closer coordination with politicians is not an argument for independence; independence is meant to shield the central bank from politicians. Ironically, a lack of coordination with fiscal policy is listed as a drawback of independence.",
           "source": "Lecture 8, 'Should central banks be independent?'",
-          "origin": "Final exam 2020 Q13"
+          "origin": "Asked in: Final exam 2020 Q13"
         },
         {
           "num": "P-17",
@@ -5645,7 +5752,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "A low but positive inflation rate keeps a buffer against deflation, which is hard to escape (see lectures 6 and 10). Options (b)–(d) state the opposite of the benefits of price stability.",
           "source": "Lecture 8, 'Price stability'; Lecture 6 (debt deflation)",
-          "origin": "Old-exam pool #17"
+          "origin": "Asked in: Old-exam pool #17"
         },
         {
           "num": "P-18",
@@ -5678,7 +5785,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The SSM gave the ECB bank supervision (significant banks directly). Resolution came later through the SRM, and macroprudential policy lies with national authorities and the ESRB.",
           "source": "Lecture 8, 'Single Supervisory Mechanism'",
-          "origin": "Old-exam pool #18"
+          "origin": "Asked in: Old-exam pool #18"
         },
         {
           "num": "P-64",
@@ -5711,7 +5818,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The FOMC decides, and the trading desk of the Federal Reserve Bank of New York carries out the OMOs centrally.",
           "source": "Lecture 8, 'Federal Open Market Committee'",
-          "origin": "Old-exam pool #64"
+          "origin": "Asked in: Final exam Oct 2024 Q14, Old-exam pool #64"
         },
         {
           "num": "P-65",
@@ -5744,7 +5851,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Under the SSM the ECB directly supervises all 'significant' banks in the euro area (100+ banks, more than 80 % of assets). Smaller banks stay with national supervisors.",
           "source": "Lecture 8, 'Single Supervisory Mechanism (SSM, 2014)'",
-          "origin": "Old-exam pool #65"
+          "origin": "Asked in: Final exam Oct 2024 Q15, Old-exam pool #65"
         },
         {
           "num": "P-66",
@@ -5777,7 +5884,7 @@ window.ANATOMIE_DATA = {
           "fmt": "howmany",
           "explanation": "A and B swap the definitions, and C is wrong because financial independence means setting its own budget. D is correct: political independence means not taking instructions from political authorities on monetary policy. One statement is correct.",
           "source": "Lecture 8, 'Central bank independence'",
-          "origin": "Old-exam pool #66"
+          "origin": "Asked in: Final exam Oct 2024 Q16, Old-exam pool #66"
         },
         {
           "num": "P-210",
@@ -5810,7 +5917,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Price stability prevents arbitrary redistribution between lenders and borrowers. The other three are listed benefits.",
           "source": "Lecture 8, 'Price stability'",
-          "origin": "Old-exam pool #210"
+          "origin": "Asked in: Old-exam pool #210"
         },
         {
           "num": "P-211",
@@ -5843,7 +5950,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Stability of financial markets is one of the goals Mishkin lists. The employment goal is unemployment at the natural rate (not below it), price stability means low, not zero, inflation, and the ECB has no exchange-rate goal.",
           "source": "Lecture 8, 'Other (potential) goals of monetary policy'",
-          "origin": "Old-exam pool #211"
+          "origin": "Asked in: Old-exam pool #211"
         },
         {
           "num": "P-212",
@@ -5876,7 +5983,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The ECB is the most independent central bank in the world (instrument and goal independent, with treaty protection). The trend has been towards more independence, and the Bank of England is less independent than the Fed and the ECB.",
           "source": "Lecture 8, 'How independent is the ECB?'",
-          "origin": "Old-exam pool #212"
+          "origin": "Asked in: Old-exam pool #212"
         },
         {
           "num": "P-248",
@@ -5909,7 +6016,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Price stability avoids unnecessary hedging; it does not stimulate it. The other three are listed benefits.",
           "source": "Lecture 8, 'Price stability'",
-          "origin": "Old-exam pool #248"
+          "origin": "Asked in: Old-exam pool #248"
         }
       ]
     },
@@ -5949,7 +6056,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "With C = c × D you get M1 = C + D = (1 + c) × D. The monetary base needs reserves (C + R), and required reserves need r, so neither can be calculated from D and c alone.",
           "source": "Lecture 9, money multiplier model",
-          "origin": "Representative questions Q10 · also in: Old-exam pool #134"
+          "origin": "Asked in: Representative questions Q10, Old-exam pool #134"
         },
         {
           "num": "RQ-11",
@@ -5982,7 +6089,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "M = m × MB = 4 × 10,000 = 40,000 = C + D, so D = 35,000. Reserves R = (r + e) × D, so r + e = 5,000 / 35,000 = 1/7. Check: c = 1/7 and m = (1 + 1/7)/(1/7 + 1/7) = 4.",
           "source": "Lecture 9, money multiplier model",
-          "origin": "Representative questions Q11 · also in: Old-exam pool #135"
+          "origin": "Asked in: Representative questions Q11, Old-exam pool #135"
         },
         {
           "num": "RQ-12",
@@ -6015,7 +6122,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "With t = T/D, the M2 multiplier is m2 = (1 + c + t)/(r + e + c), while m1 = (1 + c)/(r + e + c). The denominators are the same, so m2 > m1 as soon as t > 0, i.e. as soon as there are any time deposits. Option (a) puts t in the wrong place.",
           "source": "Lecture 9 / Lecture 12; Mishkin ch. 15 (M2 multiplier)",
-          "origin": "Representative questions Q12 · also in: Old-exam pool #136"
+          "origin": "Asked in: Representative questions Q12, Old-exam pool #136"
         },
         {
           "num": "F25-10",
@@ -6048,7 +6155,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "M1 = C + D = c × D + D = 0.2 × 10,000 + 10,000 = 12,000.",
           "source": "Lecture 9",
-          "origin": "Final exam Oct 2025 Q10 · also in: Old-exam pool #60"
+          "origin": "Asked in: Final exam Oct 2025 Q10, Final exam Oct 2024 Q10, Old-exam pool #60"
         },
         {
           "num": "F25-11",
@@ -6081,7 +6188,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Bank ABD pays for the bonds with reserves: reserves fall from 15m to 5m, deposits stay at 100m. Required reserves = 2 % × 100m = 2m, so excess reserves = 3m, which is the maximum new lending. 3m is not among (a)–(c).",
           "source": "Lecture 9, open market operations; Lecture 5 liquidity management",
-          "origin": "Final exam Oct 2025 Q11 · also in: Old-exam pool #152"
+          "origin": "Asked in: Final exam Oct 2025 Q11, Old-exam pool #152"
         },
         {
           "num": "F25-12",
@@ -6114,7 +6221,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "e = ER/D = 200/1,000 = 0.2 and c = 0.2. From m = (1 + c)/(r + e + c): 2 = 1.2/(r + 0.4), so r + 0.4 = 0.6 and r = 0.2 = 20 %.",
           "source": "Lecture 9, money multiplier model",
-          "origin": "Final exam Oct 2025 Q12 · also in: Exam Jan 2023 Q16, Final exam 2020 Q9, Old-exam pool #153"
+          "origin": "Asked in: Final exam Oct 2025 Q12, Exam Jan 2023 Q16, Final exam 2020 Q9, Old-exam pool #153"
         },
         {
           "num": "J23-15",
@@ -6147,7 +6254,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "M1 = C + D gives D = 50,000 − 2,000 = 48,000. MB = M/m = 50,000/2.5 = 20,000 = C + R, so R = 18,000. With RR = 18,000, ER = R − RR = 0.",
           "source": "Lecture 9, money multiplier model",
-          "origin": "Exam Jan 2023 Q15 · also in: Old-exam pool #255"
+          "origin": "Asked in: Exam Jan 2023 Q15, Old-exam pool #255"
         },
         {
           "num": "R21-12",
@@ -6180,7 +6287,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "A withdrawal turns deposits into currency: R falls and C rises by the same amount, so MB = C + R stays the same and only its composition changes. Banks' balance sheets shrink, the public just swaps assets, and the central bank's balance sheet total is unchanged.",
           "source": "Lecture 9, 'Currency and/or deposit withdrawals'",
-          "origin": "Resit exam 2021 Q12 · also in: Old-exam pool #268"
+          "origin": "Asked in: Resit exam 2021 Q12, Old-exam pool #268"
         },
         {
           "num": "R21-13",
@@ -6213,7 +6320,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "D = MB / (r + e + c) = 1,000 / (0.1 + 0.2 + 0.2) = 2,000. (M1 would be m × MB = 2.4 × 1,000 = 2,400.)",
           "source": "Lecture 9, money multiplier model",
-          "origin": "Resit exam 2021 Q13 · also in: Old-exam pool #269"
+          "origin": "Asked in: Resit exam 2021 Q13, Old-exam pool #269"
         },
         {
           "num": "F20-7",
@@ -6246,7 +6353,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "D and c only give M1 = (1 + c) × D = 12,000. M2 also includes savings and time deposits, and we have no information on those.",
           "source": "Lecture 9, 'Measuring money'",
-          "origin": "Final exam 2020 Q7"
+          "origin": "Asked in: Final exam 2020 Q7"
         },
         {
           "num": "F20-8",
@@ -6279,7 +6386,7 @@ window.ANATOMIE_DATA = {
           "fmt": "respectively",
           "explanation": "Simple model: ΔD = ΔR / r. With r = 4 %: 1,000,000 / 0.04 = €25 million. With r = 1 %: 1,000,000 / 0.01 = €100 million.",
           "source": "Lecture 9, simple deposit multiplier",
-          "origin": "Final exam 2020 Q8"
+          "origin": "Asked in: Final exam 2020 Q8"
         },
         {
           "num": "P-15",
@@ -6312,7 +6419,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "ACDC pays for the bonds with reserves: 15m becomes 5m, while deposits stay at 100m. Required reserves = 5 % × 100m = 5m, so excess reserves are 0 and the bank cannot lend anything. That is not among (a)–(c).",
           "source": "Lecture 9, open market operations",
-          "origin": "Old-exam pool #15"
+          "origin": "Asked in: Old-exam pool #15"
         },
         {
           "num": "P-16",
@@ -6345,7 +6452,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "m = M / MB by definition. (a) c and e depend on the public and on banks; (c) m < 1/r because of currency and excess reserves; (d) a higher e lowers m.",
           "source": "Lecture 9, money multiplier model",
-          "origin": "Old-exam pool #16"
+          "origin": "Asked in: Old-exam pool #16"
         },
         {
           "num": "P-61",
@@ -6378,7 +6485,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Simple model: r = RR/D = 20/200 = 0.10, so the deposit multiplier is 10. A €3 million purchase adds €3 million in reserves, so ΔD = 3 / 0.10 = €30 million. Option (c) is wrong because e and c play no role in the simple model.",
           "source": "Lecture 9, simple deposit multiplier",
-          "origin": "Old-exam pool #61"
+          "origin": "Asked in: Final exam Oct 2024 Q11, Old-exam pool #61"
         },
         {
           "num": "P-62",
@@ -6411,7 +6518,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Holding more cash raises c, which lowers the money multiplier and therefore M1. The monetary base only changes composition, and the simple deposit multiplier 1/r is unaffected. M2 falls too, so (a) is wrong.",
           "source": "Lecture 9, factors affecting M1",
-          "origin": "Old-exam pool #62"
+          "origin": "Asked in: Final exam Oct 2024 Q12, Old-exam pool #62"
         },
         {
           "num": "P-213",
@@ -6444,7 +6551,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "MB = C + R, so MB − R = C, currency in circulation.",
           "source": "Lecture 9, the central bank's balance sheet",
-          "origin": "Old-exam pool #213"
+          "origin": "Asked in: Old-exam pool #213"
         },
         {
           "num": "P-214",
@@ -6477,7 +6584,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Simple model: r = 25/500 = 5 %, so the deposit multiplier is 20. A purchase of €10 million adds €10 million in reserves, so ΔD = 10 × 20 = €200 million. That is not among (a)–(c).",
           "source": "Lecture 9, simple deposit multiplier",
-          "origin": "Old-exam pool #214"
+          "origin": "Asked in: Old-exam pool #214"
         },
         {
           "num": "P-245",
@@ -6510,7 +6617,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "r = 10/200 = 5 %, so the deposit multiplier is 20. A sale of €1,000 removes €1,000 of reserves, so ΔD = −1,000 × 20 = −€20,000.",
           "source": "Lecture 9, simple deposit multiplier",
-          "origin": "Old-exam pool #245"
+          "origin": "Asked in: Old-exam pool #245"
         },
         {
           "num": "P-246",
@@ -6543,7 +6650,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "MB, r, e and c give M1 = (1.2/0.4) × 500 = 1,500, but M2 also needs the time and savings deposit ratio, which is not given.",
           "source": "Lecture 9 / Lecture 12 (M2 multiplier)",
-          "origin": "Old-exam pool #246"
+          "origin": "Asked in: Old-exam pool #246"
         },
         {
           "num": "P-247",
@@ -6576,7 +6683,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "With more cash machines, people can get cash whenever they need it, so they hold less currency relative to deposits. The currency ratio c falls, so its inverse 1/c rises.",
           "source": "Lecture 9, currency ratio; Mishkin ch. 15",
-          "origin": "Old-exam pool #247"
+          "origin": "Asked in: Old-exam pool #247"
         }
       ]
     },
@@ -6616,7 +6723,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Forward guidance (management of expectations): the Fed commits to keep short rates low for a long time. Via the expectations / liquidity premium theory this lowers long-term nominal rates, and by raising inflation expectations it pushes real rates down further. Option (c) has the inflation-expectations effect backwards; (a) says 'sell' instead of 'buy'.",
           "source": "Lecture 10, 'Nonconventional tools of monetary policy'",
-          "origin": "Representative questions Q4 · also in: Old-exam pool #128"
+          "origin": "Asked in: Representative questions Q4, Old-exam pool #128"
         },
         {
           "num": "RQ-13",
@@ -6649,7 +6756,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The marginal lending rate is the ceiling of the corridor: no bank pays more than the MLR in the interbank market when it can borrow from the ECB at the MLR. So €STR cannot exceed the MLR, let alone MLR + 100 bp. It can lie above the deposit rate (inside the corridor), and banks' demand for reserves does move it.",
           "source": "Lecture 10, 'Standing facilities at the ECB' and the market for reserves",
-          "origin": "Representative questions Q13 · also in: Old-exam pool #137"
+          "origin": "Asked in: Representative questions Q13, Old-exam pool #137"
         },
         {
           "num": "RQ-14",
@@ -6682,7 +6789,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The SMP bought Italian and Spanish government bonds on the secondary market (no primary-market purchases, no direct credit to governments), and the extra reserves were sterilised. So (a), (b) and (c) describe things the SMP did not do, and the answer is (d).",
           "source": "Lecture 10, 'Securities Markets Programme (SMP, 2010-2012)'",
-          "origin": "Representative questions Q14 · also in: Old-exam pool #138"
+          "origin": "Asked in: Representative questions Q14, Old-exam pool #138"
         },
         {
           "num": "RQ-15",
@@ -6715,7 +6822,7 @@ window.ANATOMIE_DATA = {
           "fmt": "respectively",
           "explanation": "With zero borrowed reserves the equilibrium lies on the vertical part of the supply curve, below the lending rate. A lower marginal lending rate leaves non-borrowed reserves (set by OMOs) and the deposit rate (a separate tool) unchanged. Borrowed reserves can change once the MLR is cut below the market rate.",
           "source": "Lecture 10, market for reserves: response of i to changes in the lending rate",
-          "origin": "Representative questions Q15 · also in: Old-exam pool #139"
+          "origin": "Asked in: Representative questions Q15, Old-exam pool #139"
         },
         {
           "num": "RQ-16",
@@ -6748,7 +6855,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The ECB itself (Governing Council) defines price stability as 2 % HICP (consumer, not producer prices) over the medium term. 'Board of Governors' is a Fed body, and implementation is through the national central banks, not bank supervisors. The ESRB is the EU's macroprudential body and has no price-stability task.",
           "source": "Lecture 10, 'Inflation targeting at the ECB'; Lecture 11 (ESRB)",
-          "origin": "Representative questions Q16 · also in: Final exam 2020 Q15, Old-exam pool #140"
+          "origin": "Asked in: Representative questions Q16, Final exam 2020 Q15, Old-exam pool #140"
         },
         {
           "num": "RQ-17",
@@ -6781,7 +6888,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Taylor rule: i = π + r* + 0.5(π − π*) + 0.5 × output gap = 3 + 2 + 0.5 × (3 − 1) + 0.5 × 1 = 6.5 %.",
           "source": "Lecture 10, 'Tactics: the Taylor rule'",
-          "origin": "Representative questions Q17 · also in: Old-exam pool #141"
+          "origin": "Asked in: Representative questions Q17, Old-exam pool #141"
         },
         {
           "num": "F25-17",
@@ -6814,7 +6921,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The deposit rate is the floor of the corridor: no bank lends reserves overnight below the rate it can earn by depositing them at the ECB. So an overnight rate below the deposit rate cannot occur, and the statement does not make sense.",
           "source": "Lecture 10, demand for reserves and standing facilities",
-          "origin": "Final exam Oct 2025 Q17 · also in: Final exam 2020 Q14, Old-exam pool #157"
+          "origin": "Asked in: Final exam Oct 2025 Q17, Final exam 2020 Q14, Old-exam pool #157"
         },
         {
           "num": "F25-18",
@@ -6847,7 +6954,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Relying on a stable money–inflation relationship is a drawback of monetary targeting. The Fed's implicit nominal anchor (dual mandate) is criticised for low transparency, low accountability and dependence on the people in charge.",
           "source": "Lecture 10, 'Implicit nominal anchor' and 'Monetary targeting'",
-          "origin": "Final exam Oct 2025 Q18 · also in: Old-exam pool #158, Old-exam pool #202"
+          "origin": "Asked in: Final exam Oct 2025 Q18, Old-exam pool #158, Old-exam pool #202"
         },
         {
           "num": "F25-19",
@@ -6880,7 +6987,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Inflation targeting uses an information-inclusive approach in which many variables, not just monetary aggregates, feed into policy-rate decisions. The other three are elements of inflation targeting.",
           "source": "Lecture 10, 'Inflation targeting'",
-          "origin": "Final exam Oct 2025 Q19 · also in: Old-exam pool #159"
+          "origin": "Asked in: Final exam Oct 2025 Q19, Old-exam pool #159"
         },
         {
           "num": "F25-20",
@@ -6913,7 +7020,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "5.5 = π + r* + 0.5(π − π*) + 0.5 × gap = 3 + 1 + 0.5(3 − π*) + 0.5. So 0.5(3 − π*) = 1, which gives π* = 1 %.",
           "source": "Lecture 10, 'Tactics: the Taylor rule'",
-          "origin": "Final exam Oct 2025 Q20 · also in: Exam Jan 2023 Q20, Old-exam pool #70, Old-exam pool #160"
+          "origin": "Asked in: Final exam Oct 2025 Q20, Final exam Oct 2024 Q20, Exam Jan 2023 Q20, Old-exam pool #70, Old-exam pool #160"
         },
         {
           "num": "J23-19",
@@ -6946,7 +7053,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "If the central bank fixes the quantity of reserves (or a monetary aggregate), every shift in the demand for reserves changes the interest rate. You cannot target a quantity and the interest rate at the same time.",
           "source": "Lecture 10, 'Tactics: choosing the policy instrument'",
-          "origin": "Exam Jan 2023 Q19 · also in: Old-exam pool #200"
+          "origin": "Asked in: Exam Jan 2023 Q19, Old-exam pool #200"
         },
         {
           "num": "R21-16",
@@ -6979,7 +7086,7 @@ window.ANATOMIE_DATA = {
           "fmt": "howmany",
           "explanation": "All seven statements are wrong. A: supply is vertical only up to the lending rate, then horizontal. B: i can equal il; arbitrage would only arise if i > il. C: the market sets the overnight rate. D: the deposit rate is only the floor. E: i cannot rise above the lending rate. F: demand becomes flat at the deposit rate, never upward-sloping. G: OMOs change non-borrowed reserves, not the required reserve ratio.",
           "source": "Lecture 10, market for reserves",
-          "origin": "Resit exam 2021 Q16"
+          "origin": "Asked in: Resit exam 2021 Q16"
         },
         {
           "num": "R21-17",
@@ -7012,7 +7119,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "i = π + r* + 0.5(π − π*) + 0.5 × gap = 2 + 3 + 0.5 × 1 + 0.5 × 2 = 6.5 %.",
           "source": "Lecture 10, 'Tactics: the Taylor rule'",
-          "origin": "Resit exam 2021 Q17"
+          "origin": "Asked in: Resit exam 2021 Q17"
         },
         {
           "num": "F20-16",
@@ -7045,7 +7152,7 @@ window.ANATOMIE_DATA = {
           "fmt": "respectively",
           "explanation": "With a fixed quantity of reserves, shifts in the demand for reserves move the interest rate. A central bank cannot target a reserve aggregate and the interest rate at the same time.",
           "source": "Lecture 10, 'Tactics: choosing the policy instrument'",
-          "origin": "Final exam 2020 Q16"
+          "origin": "Asked in: Final exam 2020 Q16"
         },
         {
           "num": "F20-17",
@@ -7078,7 +7185,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "3.5 = π + 1 + 0.5(π − 2) + 0.5 × 1 = 1.5π + 0.5, so π = 2 %.",
           "source": "Lecture 10, 'Tactics: the Taylor rule'",
-          "origin": "Final exam 2020 Q17"
+          "origin": "Asked in: Final exam 2020 Q17"
         },
         {
           "num": "P-20",
@@ -7111,7 +7218,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Standing facilities are the deposit facility (deposit rate) and the marginal lending facility (lending rate). Together they form the corridor for the overnight rate.",
           "source": "Lecture 10, 'Conventional tools of monetary policy'",
-          "origin": "Old-exam pool #20"
+          "origin": "Asked in: Old-exam pool #20"
         },
         {
           "num": "P-63",
@@ -7144,7 +7251,7 @@ window.ANATOMIE_DATA = {
           "fmt": "respectively",
           "explanation": "With discretion, agents expect short-run stimulus, raise their inflation expectations, and inflation ends up higher without extra growth. A credible behaviour rule (nominal anchor) prevents this.",
           "source": "Lecture 8, time-inconsistency problem; Lecture 10, 'Behaviour rule and nominal anchor'",
-          "origin": "Old-exam pool #63"
+          "origin": "Asked in: Final exam Oct 2024 Q13, Old-exam pool #63"
         },
         {
           "num": "P-67",
@@ -7177,7 +7284,7 @@ window.ANATOMIE_DATA = {
           "fmt": "howmany",
           "explanation": "A: supply is horizontal at the lending rate, not completely vertical. B: i can equal il; arbitrage needs i > il. C: demand becomes flat at the deposit rate, not upward-sloping. D: OMOs change non-borrowed reserves. All four are wrong.",
           "source": "Lecture 10, market for reserves",
-          "origin": "Old-exam pool #67"
+          "origin": "Asked in: Final exam Oct 2024 Q17, Old-exam pool #67"
         },
         {
           "num": "P-68",
@@ -7210,7 +7317,7 @@ window.ANATOMIE_DATA = {
           "fmt": "respectively",
           "explanation": "A dual mandate (Fed) or a hierarchical mandate (ECB) is acceptable as long as price stability is the primary goal in the long run. There is no long-run trade-off between price stability and the other goals.",
           "source": "Lecture 8 (price stability as primary goal); Lecture 10 (dual vs hierarchical mandate)",
-          "origin": "Old-exam pool #68"
+          "origin": "Asked in: Final exam Oct 2024 Q18, Old-exam pool #68"
         },
         {
           "num": "P-69",
@@ -7243,7 +7350,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "TPI purchases are sterilised, so unlike QE they do not raise reserves. (a) Only secondary-market purchases are allowed; (b) the aim is to counter unwarranted rises in yields; (c) QE increases reserves, it does not lower them.",
           "source": "Lecture 10, 'Transmission Protection Instrument (TPI, 2022-)'",
-          "origin": "Old-exam pool #69"
+          "origin": "Asked in: Final exam Oct 2024 Q19, Old-exam pool #69"
         },
         {
           "num": "P-198",
@@ -7276,7 +7383,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "If real GDP is below potential (negative output gap), the Taylor rule calls for a lower interest rate, so (a) and (b) are wrong. (c) is nonsense, because the overnight rate cannot be below the deposit rate.",
           "source": "Lecture 10, 'Tactics: the Taylor rule'",
-          "origin": "Old-exam pool #198"
+          "origin": "Asked in: Old-exam pool #198"
         },
         {
           "num": "P-199",
@@ -7309,7 +7416,7 @@ window.ANATOMIE_DATA = {
           "fmt": "respectively",
           "explanation": "OMOs change the (non-borrowed) monetary base. Lending to banks changes borrowed reserves and so also the monetary base. Reserve requirements change the money multiplier. The right pattern is 'monetary base; monetary base; money multiplier', which is not among (a)–(c).",
           "source": "Lecture 9 (control of the monetary base); Lecture 10 (tools)",
-          "origin": "Old-exam pool #199"
+          "origin": "Asked in: Old-exam pool #199"
         },
         {
           "num": "P-201",
@@ -7342,7 +7449,7 @@ window.ANATOMIE_DATA = {
           "fmt": "respectively",
           "explanation": "Above the deposit rate the demand curve for reserves slopes downward: a lower overnight rate means a lower opportunity cost of holding excess reserves, so banks demand more reserves. At the deposit rate the curve becomes flat.",
           "source": "Lecture 10, 'Demand for reserves'",
-          "origin": "Old-exam pool #201"
+          "origin": "Asked in: Old-exam pool #201"
         },
         {
           "num": "P-203",
@@ -7375,7 +7482,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The output gap is −3 %. i = 3 + 2 + 0.5 × (3 − 2) + 0.5 × (−3) = 4 %.",
           "source": "Lecture 10, 'Tactics: the Taylor rule'",
-          "origin": "Old-exam pool #203"
+          "origin": "Asked in: Old-exam pool #203"
         },
         {
           "num": "P-244",
@@ -7408,7 +7515,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The advantages of OMOs are that the central bank has full control over them, they are flexible and precise, easily reversed and quickly implemented. (b) is not an advantage and not even true: open market sales reduce non-borrowed reserves, and a purchase from a non-bank that keeps the cash raises currency rather than reserves.",
           "source": "Lecture 10, 'Open market operations'; Lecture 9",
-          "origin": "Old-exam pool #244"
+          "origin": "Asked in: Old-exam pool #244"
         }
       ]
     },
@@ -7448,7 +7555,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Inaction bias: activating a macroprudential instrument has costs that are immediate and visible (e.g. lower growth), while the benefits (a crisis that does not happen) are long-term and uncertain. That is why macroprudential regulators should be independent, which is why central banks take on this role.",
           "source": "Lecture 11, macroprudential regulation; Veestraeten (2019)",
-          "origin": "Representative questions Q18 · also in: Old-exam pool #142"
+          "origin": "Asked in: Representative questions Q18, Old-exam pool #142"
         },
         {
           "num": "F25-1",
@@ -7481,7 +7588,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "A prospectus requirement regulates financial markets (issuers of stocks and bonds, information for investors), not financial intermediaries. Reserve requirements, asset restrictions for pension funds and prompt corrective action on capital are all regulation of intermediaries.",
           "source": "Lecture 11, 'Categories of financial regulation'",
-          "origin": "Final exam Oct 2025 Q1 · also in: Old-exam pool #143"
+          "origin": "Asked in: Final exam Oct 2025 Q1, Old-exam pool #143"
         },
         {
           "num": "F25-2",
@@ -7514,7 +7621,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Pillar II is the supervisory review: the bank assesses its own capital adequacy and supervisors check it. (a) Basel I was prompted by the Latin-American debt crisis of the 1980s; (b) the ratio is capital to risk-weighted assets; (c) the standardised approach uses more detailed risk categories based on credit ratings.",
           "source": "Lecture 11, Basel I and Basel II",
-          "origin": "Final exam Oct 2025 Q2 · also in: Old-exam pool #144"
+          "origin": "Asked in: Final exam Oct 2025 Q2, Old-exam pool #144"
         },
         {
           "num": "F25-3",
@@ -7547,7 +7654,7 @@ window.ANATOMIE_DATA = {
           "fmt": "respectively",
           "explanation": "Systemic risk has a cyclical (time-varying) dimension, how much risk builds up over the financial cycle, and a cross-sectional (structural) dimension, how risk is distributed and interconnected across institutions at a given moment.",
           "source": "Veestraeten (2019), macroprudential policy reading, section 2",
-          "origin": "Final exam Oct 2025 Q3 · also in: Old-exam pool #145"
+          "origin": "Asked in: Final exam Oct 2025 Q3, Old-exam pool #145"
         },
         {
           "num": "J23-10",
@@ -7580,7 +7687,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Capital = 10 % of RWA, so RWA = 300 / 0.10 = SEK 3,000 million. The reserve and deposit figures are distractors.",
           "source": "Lecture 11, Basel capital ratio C / RWA",
-          "origin": "Exam Jan 2023 Q10 · also in: Old-exam pool #258"
+          "origin": "Asked in: Exam Jan 2023 Q10, Old-exam pool #258"
         },
         {
           "num": "J23-11",
@@ -7613,7 +7720,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The ESRB's four intermediate objectives are to prevent (1) excessive credit growth and leverage, (2) excessive maturity mismatch and market illiquidity, (3) direct and indirect exposure concentrations, and (4) misaligned incentives and moral hazard. 'Mitigating the Basel agreements' countercyclical effects' is not one of them, and the problem with Basel II is procyclicality anyway.",
           "source": "Veestraeten (2019), section 3 'The intermediate objectives of macroprudential policy'",
-          "origin": "Exam Jan 2023 Q11 · also in: Old-exam pool #259"
+          "origin": "Asked in: Exam Jan 2023 Q11, Old-exam pool #259"
         },
         {
           "num": "R21-9",
@@ -7646,7 +7753,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Fallacy of composition: what is rational for one bank (e.g. lending heavily to a booming sector, or using securitisation) becomes destabilising when every bank does it. This is the core argument for macroprudential, not just microprudential, regulation.",
           "source": "Lecture 11, macroprudential regulation of banks",
-          "origin": "Resit exam 2021 Q9 · also in: Old-exam pool #267"
+          "origin": "Asked in: Resit exam 2021 Q9, Old-exam pool #267"
         },
         {
           "num": "F20-1",
@@ -7679,7 +7786,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Instruments must be effective against the build-up of systemic risk, which means countercyclical, not procyclical. Limited arbitrage, targeting roots rather than symptoms, and minimal distortion are all on the lecture's list.",
           "source": "Lecture 11, 'Useful macroprudential instruments must ...'",
-          "origin": "Final exam 2020 Q1"
+          "origin": "Asked in: Final exam 2020 Q1"
         },
         {
           "num": "P-11",
@@ -7712,7 +7819,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The reading notes that pure rules ignore unforeseeable shocks and new products, while pure discretion suffers from the inaction bias. The ESRB therefore proposes a mixture of rules and discretion and calls it 'guided discretion'.",
           "source": "Veestraeten (2019), section 4.3 'Policy implementation'",
-          "origin": "Old-exam pool #11"
+          "origin": "Asked in: Old-exam pool #11"
         },
         {
           "num": "P-51",
@@ -7745,7 +7852,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The lender of last resort is one of the government safety nets, along with deposit insurance. The other three state the opposite of real regulation.",
           "source": "Lecture 11, 'Categories of financial regulation'",
-          "origin": "Old-exam pool #51"
+          "origin": "Asked in: Final exam Oct 2024 Q1, Old-exam pool #51"
         },
         {
           "num": "P-52",
@@ -7778,7 +7885,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "Reducing capital lowers C / RWA even further. Cutting dividends raises C through retained earnings. Selling government bonds or loans and holding the proceeds as reserves (risk weight 0 %) lowers RWA.",
           "source": "Lecture 11, 'The danger of pro-cyclicality ...' (ways to raise C/RWA)",
-          "origin": "Old-exam pool #52"
+          "origin": "Asked in: Final exam Oct 2024 Q2, Old-exam pool #52"
         },
         {
           "num": "P-53",
@@ -7811,7 +7918,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The ESRB's objective is to prevent (reduce) direct and indirect exposure concentrations, not increase them. The other three are intermediate objectives.",
           "source": "Veestraeten (2019), section 3",
-          "origin": "Old-exam pool #53"
+          "origin": "Asked in: Final exam Oct 2024 Q3, Old-exam pool #53"
         },
         {
           "num": "P-253",
@@ -7844,7 +7951,7 @@ window.ANATOMIE_DATA = {
           "fmt": "single",
           "explanation": "The lecture lists three dangers of regulation: moral hazard (safety nets), costs of compliance, and regulatory capture. Adverse selection is a problem that regulation tries to reduce, not a danger it creates.",
           "source": "Lecture 11, 'Main disadvantages/dangers of regulation'",
-          "origin": "Old-exam pool #253"
+          "origin": "Asked in: Old-exam pool #253"
         }
       ]
     }

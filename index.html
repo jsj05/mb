@@ -494,7 +494,7 @@ const APP = {
   },
   buildExamList(){
     const list=document.getElementById('examList');list.innerHTML='';
-    const EXORDER=['rq','f2025','j2023','r2021','f2020','pool'];
+    const EXORDER=['rq','f2025','f2024','j2023','r2021','f2020','pool'];
     const NEW_EXAMS=[];
     const exams=this.data.exams
       .filter(ex=>this.tier>=2||!PLUS_EXAMS.includes(ex.id))
